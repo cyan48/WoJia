@@ -1,10 +1,12 @@
-//
-//  ViewController.m
-//  WoJiaApp
-//
-//  Created by cricket on 16/6/22.
-//  Copyright © 2016年 cricket. All rights reserved.
-//
+/*
+    // 0 项目名: WoJia
+    // 1 类型: 即时通讯 地图定位 社区分享 线上线下聚会 家庭娱乐
+    // 2 功能: 
+            -> 
+ 
+ 
+ 
+ */
 
 #import "ViewController.h"
 
