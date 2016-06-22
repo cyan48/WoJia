@@ -58,14 +58,10 @@
 		E1603A501D1A74B3002C7AD6 /* WoJiaApp */ = {
 			isa = PBXGroup;
 			children = (
-				E1603A541D1A74B3002C7AD6 /* AppDelegate.h */,
-				E1603A551D1A74B3002C7AD6 /* AppDelegate.m */,
-				E1603A571D1A74B3002C7AD6 /* ViewController.h */,
-				E1603A581D1A74B3002C7AD6 /* ViewController.m */,
-				E1603A5A1D1A74B3002C7AD6 /* Main.storyboard */,
-				E1603A5D1D1A74B3002C7AD6 /* Assets.xcassets */,
-				E1603A5F1D1A74B3002C7AD6 /* LaunchScreen.storyboard */,
-				E1603A621D1A74B3002C7AD6 /* Info.plist */,
+				E1603A6B1D1A9111002C7AD6 /* Others */,
+				E1603A6A1D1A910A002C7AD6 /* Controllers */,
+				E1603A691D1A9105002C7AD6 /* Views */,
+				E1603A681D1A90FC002C7AD6 /* Models */,
 				E1603A511D1A74B3002C7AD6 /* Supporting Files */,
 			);
 			path = WoJiaApp;
@@ -74,9 +70,45 @@
 		E1603A511D1A74B3002C7AD6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E1603A5D1D1A74B3002C7AD6 /* Assets.xcassets */,
+				E1603A621D1A74B3002C7AD6 /* Info.plist */,
 				E1603A521D1A74B3002C7AD6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1603A681D1A90FC002C7AD6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E1603A691D1A9105002C7AD6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1603A5A1D1A74B3002C7AD6 /* Main.storyboard */,
+				E1603A5F1D1A74B3002C7AD6 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E1603A6A1D1A910A002C7AD6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1603A571D1A74B3002C7AD6 /* ViewController.h */,
+				E1603A581D1A74B3002C7AD6 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E1603A6B1D1A9111002C7AD6 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				E1603A541D1A74B3002C7AD6 /* AppDelegate.h */,
+				E1603A551D1A74B3002C7AD6 /* AppDelegate.m */,
+			);
+			name = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +335,7 @@
 				E1603A671D1A74B3002C7AD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
